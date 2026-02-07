@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #5e7559;
+  display: flex;
+  justify-content: center;
+
+   position: fixed;
+    top: 0;
+    left:0;
+     width: 100%; 
+  z-index: 1000;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #7a3f83;
+  color : white
+}
+
+.Texte{
+  font-size: 24px;
+  text-shadow: 
+   -1px -1px 0 black, 
+   1px -1px 0 black, 
+   -1px 1px 0 black, 
+   1px 1px 0 black;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("src/assets/Photos/Photo_3.jpg");
+  background-size: cover;
+  animation: bgChange 12s infinite;       
+  background-repeat: no-repeat; 
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+@keyframes bgChange { /*WIP need to add fade in and out */
+   
+   0% { background-image: url("src/assets/Photos/Photo_3.jpg"); } 
+}
+
+.Title{
+  color: white;
+  font-size: 72px;
+   text-shadow: 
+   -2px -2px 0 black, 
+   2px -2px 0 black, 
+   -2px 2px 0 black, 
+   2px 2px 0 black;
+}
+
+.SousTitle{
+  color: white;
+  font-size: 36px;
+   text-shadow: 
+   -2px -2px 0 black, 
+   2px -2px 0 black, 
+   -2px 2px 0 black, 
+   2px 2px 0 black;
+}
+
+.BottomPage{
+  margin: 0;
+  padding: 0;
+  background-color: #5e7559;
+  display: flex;
+  justify-content: center;
+height: 40px;
+   position: fixed;
+    bottom: 0;
+    left:0;
+     width: 100%; 
+  z-index: 1000;
+}
+
+.spacer {
+  height: 30px;
+} 
